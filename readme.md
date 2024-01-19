@@ -77,13 +77,7 @@ The MongoDB database used by MindLab API has a single collection named `analysis
 
 ### Configuration
 
-Create a `.env` file in the project root with the following content:
-
-```dotenv
-MONGODB_URL=mongodb://localhost:27017/
-```
-
-Replace the `MONGODB_URL` value with your MongoDB server URL.
+Replace the `MONGODB_URL` with your MongoDB server URL.
 
 ## Running the API
 
